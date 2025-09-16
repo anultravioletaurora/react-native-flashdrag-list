@@ -54,7 +54,7 @@
     "@commitlint/config-conventional": "^17.6.6",
     "@react-native-community/eslint-config": "^3.2.0",
     "@release-it/conventional-changelog": "^6.0.0",
-    "@shopify/flash-list": "^1.4.3",
+    "@shopify/flash-list": "^2.0.3",
     "@types/jest": "^29.5.2",
     "@types/react": "~18.2.14",
     "@types/react-native": "0.72.2",
@@ -73,9 +73,6 @@
     "release-it": "^16.0.0",
     "typescript": "^5.1.6"
   },
-  "resolutions": {
-    "@types/react": "17.0.21"
-  },
   "peerDependencies": {
     "@shopify/flash-list": "*",
     "react": "*",
@@ -86,7 +83,7 @@
   "engines": {
     "node": ">= 16.0.0"
   },
-  "packageManager": "^yarn@1.22.15",
+  "packageManager": "yarn@1.22.22",
   "jest": {
     "preset": "react-native",
     "modulePathIgnorePatterns": [
