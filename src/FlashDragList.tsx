@@ -270,7 +270,6 @@ const FlashDragList: FunctionComponent<Props> = (props) => {
           onScroll={scrollHandler}
           scrollEventThrottle={16}
           extraData={extraData}
-          renderScrollComponent={ScrollView}
         />
         {active && (
           <Animated.View
